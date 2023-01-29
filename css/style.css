@@ -2,41 +2,76 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top:20%;
+    padding-top:13%;
     width: auto;
     height: auto;
     
 }
-.header{
-    font-size: 50px;
+
+.header img{
+    width: 300px;
+    height: 150px;
     
 }
+    
+
+
 
 .input{
     
-    width: 250px;
+    width: 300px;
     height: 25px;
-   margin-top: 10px;
-   margin-bottom: 10px;
-   margin-left: 15px;
+   /* margin-top: 10px; */
+   /* margin-bottom: 10px; */
+   margin-left: 20px;
+   margin-bottom: 5px;
+   border-bottom: solid 1px;
+   
     border:transparent;
   
 }
 
-.button{
-    padding-top: 15px;
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
 }
 .busca{
+    float: left;
     margin-top: 10px ;
     background-color:transparent;
     border:solid 1px;
-    border-radius:15px;
-    width: 350px;
-    border: solid 1px;
-    
+    border-radius:40px;
+    width: 450px;
+    padding-left:5px;
+    padding-top: 10px;
+    font-size:18px;
+   
+   
+}
+.busca img{
+float: left;
+width: 25px;
+height: 25px;
 }
 
-.busca img{
-    width: 50 px;
-    height: 50 px;
+
+.btn{
+    padding-top: 15px;
+    
+    
+}
+.bt1{
+    margin-right: 10px ;
+    border: transparent;
+
+}
+.bt2{
+    border: transparent;
+}
+
+.bt1:hover{
+    background-color:lightgray;
+}
+.bt2:hover{
+    background-color:lightgray;
 }
